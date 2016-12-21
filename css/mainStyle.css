@@ -183,11 +183,13 @@ textarea {
       border: none;
     }
     .home {
+      margin-top: 140px;
       padding: 2px;
     }
     .button {
       max-width: 250px;
       height: 75px;
+      margin-bottom: 30px;
     }
     #hire{
       font-size: 36px;
