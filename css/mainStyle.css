@@ -182,12 +182,11 @@ textarea {
     .imgThumbs {
       border: none;
     }
-    #hire{
-      font-size: 18px;
-    }
-
     .home {
       padding: 5px;
+    }
+    .myIcons{
+      border: none;
     }
 }
 
