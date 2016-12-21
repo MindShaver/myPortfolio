@@ -190,7 +190,8 @@ textarea {
       height: 75px;
     }
     #hire{
-      font-size: 26px;
+      font-size: 30px;
+      line-height: 1.3em;
     }
     .myIcons{
       border: none;
