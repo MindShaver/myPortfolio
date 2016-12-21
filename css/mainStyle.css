@@ -180,7 +180,7 @@ textarea {
 /* SVG Animation */
 
 .myGuy {
-  max-width: 200px;
+  text-align: center;
   margin: 20px auto 20px auto;
   border-bottom: 3px solid black;
   padding-bottom: 0px;
