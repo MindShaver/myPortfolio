@@ -182,8 +182,10 @@ textarea {
     .imgThumbs {
       border: none;
     }
+    .jumbotron {
+      margin-top: 100px;
+    }
     .home {
-      margin-top: 140px;
       padding: 2px;
     }
     .button {
@@ -193,7 +195,7 @@ textarea {
     }
     #hire{
       font-size: 36px;
-      line-height: 1.5em;
+      line-height: 1.7em;
     }
     .myIcons{
       border: none;
