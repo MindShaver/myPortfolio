@@ -177,6 +177,20 @@ textarea {
 
 /* End Form Layout */
 
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .imgThumbs {
+      border: none;
+    }
+    #hire{
+      font-size: 18px;
+    }
+
+    .home {
+      padding: 5px;
+    }
+}
+
 /* SVG Animation */
 
 .myGuy {
