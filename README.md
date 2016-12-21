@@ -7,9 +7,7 @@
   <body>
     <div class="container-fluid">
         <h1 class="header">My Portfolio</h1>
-        <p>By MindShaver |
-            <a href="https://github.com/MindShaver/header-mservice">Project GitHub</a></p>
-            <p> View the live site <a href="https://www.robert-livingston.com/" target="_blank">HERE</a></p>
+        <p>By MindShaver</p>
         <blockquote>
           <p>This is my personal portfolio containing projects I've done.</p> 
         </blockquote>  
