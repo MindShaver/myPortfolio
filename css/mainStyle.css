@@ -183,10 +183,20 @@ textarea {
       border: none;
     }
     .home {
-      padding: 5px;
+      padding: 2px;
+    }
+    #hire{
+      font-size: 24px;
     }
     .myIcons{
       border: none;
+    }
+    #intro{
+      font-size: 30px;
+    }
+
+    #introText {
+      font-size: 12px;
     }
 }
 
