@@ -202,6 +202,7 @@ textarea {
     }
     #intro{
       font-size: 24px;
+      text-align: center;
     }
 
     .introText {
