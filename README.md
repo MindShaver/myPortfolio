@@ -6,14 +6,12 @@
   </head>
   <body>
     <div class="container-fluid">
-        <h1 class="header">My Portfolio/h1>
+        <h1 class="header">My Portfolio</h1>
         <p>By MindShaver |
             <a href="https://github.com/MindShaver/header-mservice">Project GitHub</a></p>
             <p> View the live site <a href="https://www.robert-livingston.com/" target="_blank">HERE</a></p>
-        <blockquote>User Stories:
-            <ol>
-                <li>This is my personal portfolio containing projects I've done.</li>
-            </ol>
+        <blockquote>
+          <p>This is my personal portfolio containing projects I've done.</p> 
         </blockquote>  
     </div>
   </body>
