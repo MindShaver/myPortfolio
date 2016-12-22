@@ -11,6 +11,10 @@ body {
   margin-bottom: 60px;
 }
 
+.navbar {
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+
 /* Main Sections */
 
 .home {
