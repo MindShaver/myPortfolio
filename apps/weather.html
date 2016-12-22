@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="en" />
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="images/RL.ico" rel="icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="css/weather.css" rel="stylesheet" />
+    <script src="js/weather.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/mainJS.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!-- Navigation -->
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#home">Robert Livingston</a>
+            </div>
+
+              <div class="collapse navbar-collapse myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="text-uppercase"><a href="#home">Home</a></li>
+                  <li class="text-uppercase"><a href="#portfolio">Portfolio</a></li>
+                  <li class="text-uppercase"><a href="#contact"> Contact</a></li>
+                </ul>
+              </div>
+          </div>
+       </nav>
+
+    <!-- End Navigation -->
+
+    <div class="container-fluid">
+
+      <div id="mainApp" class="container">
+        <h1 class="text-center title">Current Weather</h1>
+
+
+        <h2 id="cityName" class="text-center">City: - -</h2>
+        <div class="center">
+          <h2 id="temp" class="text-center">- -&deg;</h2>
+          <h2 id="temp2" class="text-center convert">F</h2>
+        </div>
+
+        <div class="icon">
+          <div id="sunShower" class="icon sun-shower">
+            <div class="cloud"></div>
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+
+            <div class="rain"></div>
+          </div>
+
+          <div id="storm" class="icon thunder-storm">
+            <div class="cloud"></div>
+            <div class="lightning">
+              <div class="bolt"></div>
+              <div class="bolt"></div>
+            </div>
+          </div>
+
+          <div id="cloudy" class="icon cloudy">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+          </div>
+
+          <div id="snow" class="icon flurries">
+            <div class="cloud"></div>
+            <div class="snow">
+              <div class="flake"></div>
+              <div class="flake"></div>
+            </div>
+          </div>
+
+          <div id="sunny" class="icon sunny">
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+          </div>
+
+          <div id="showers" class="icon rainy">
+            <div class="cloud"></div>
+            <div class="rain"></div>
+          </div>
+        </div>
+       
+
+        <footer>
+          <h5 class="text-center">Written & Coded by: Robert Livingston</h5></footer>
+        
+        <div id="status"></div>
+
+      </div>
+    </div>
+  </body>
+</html>
