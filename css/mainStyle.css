@@ -232,7 +232,7 @@ textarea {
   animation: breathe 1.5s ease-out alternate infinite;
 }
 
-#Eyes-2 {
+#Eyes2 {
  animation: blink 5s 4s infinite;
   transform-origin: 50%;
 }
