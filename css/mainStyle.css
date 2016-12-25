@@ -227,6 +227,49 @@ textarea {
   
 }
 
+.newGuy {
+ margin: auto;
+ margin-top: 100px;
+ text-align: center;
+ border-bottom: 3px solid black;
+ border-radius: 20px;
+}
+
+#LowerLip {
+  opacity: 0;
+  animation: smile 12s 1s infinite;
+}
+
+#LeftAction {
+  opacity: 0;
+  animation: click .25s infinite;
+}
+
+#RightAction {
+  opacity: 0;
+  animation: click .20s infinite;
+}
+
+#FullHead2 {
+  transform: translate(0px, 60px);
+  animation: headMove 15s 1s infinite;
+}
+
+#Eyes {
+  animation: blink 5s 4s infinite;
+  transform-origin: 50%;
+}
+
+#RightHand {
+  transform: translate(10px, 100px);
+  animation: type .19s  infinite;
+}
+
+#LeftHand {
+  transform: translate(-15px, 100px);
+  animation: type .17s  infinite;
+}
+
 #Right_Arm,
 #Left_Arm {
   animation: breathe 1.5s ease-out alternate infinite;
@@ -265,6 +308,21 @@ textarea {
   100% {
     transform: translateY(8px);
   }
+}
+
+@keyframes click {
+  75% {opacity: 1}
+}
+@keyframes smile {
+  50% {opacity: 1}
+}
+
+@keyframes headMove {
+  50% {transform: translate(0px, 0px)}
+}
+
+@keyframes type {
+  100% {transform: translate(0px, 20px)}
 }
 
 @keyframes blink {
